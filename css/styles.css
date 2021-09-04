@@ -1,0 +1,60 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+input {
+    color : crimson;
+    font-size: 25pt;
+}
+
+input:hover {
+    background : gold;
+}
+
+input:focus {
+    font-size : 40pt;
+}
+
+#clock {
+    margin-top: 30pt;
+    font-size: 100pt;
+}
+
+#ul-todo-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#greeting {
+    font-size: 50pt;
+}
+
+#weather {
+    margin-top: 30pt;
+}
+
+#weather span {
+    color: deeppink;
+    font-size: 35pt;
+}
+
+.hidden {
+    display: none;
+}
+
+.todo-item {
+    font-size: 30pt;
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.todo-item:hover {
+    text-decoration: line-through;
+    color: crimson;
+}
+
+.font-color {
+    color: gold;
+}
